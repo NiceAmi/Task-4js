@@ -1,0 +1,21 @@
+{
+    "todoList": [
+        
+            {
+              "name": "Car",
+              "description": "Wash the car",
+              "priority": "1-Negligible"
+            },
+            {
+              "name": "Bills",
+              "description": "Pay the bills",
+              "priority": "2-Medium"
+            },
+            {
+              "name": "Assignment",
+              "description": "Finish the assignment in Full stack",
+              "priority": "3-Very important"
+            }
+          
+    ]
+}

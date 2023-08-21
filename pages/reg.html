@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title>Regstration page</title>
+</head>
+
+<body>
+    <h1>User Systems Analysis Ltd</h1>
+    <h2>Registration page</h2>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <img src="../media/pic/coading.webp">
+   <div class="container">
+        <form action="./log.html">
+            <div>
+                <label>User name : </label>
+                <input type="text" placeholder="Enter your User name..." id="uname" required>
+                <label>First name : </label>
+                <input type="text" placeholder="Enter your First name..." id="fname" required>
+                <label>Last name : </label>
+                <input type="text" placeholder="Enter 'your Last name..."  id="lname" required>
+                <label>Gender : </label>
+                <select id="gender" name="gender" required>
+                    <option>Select</option>
+                    <option value="male" id="gender">Male</option>
+                    <option value="female" id="gender">Female</option>
+                </select>
+                <label>Age : </label>
+                <input type="text" placeholder="Enter your Age..."  id="age" required>
+                <label>Email : </label>
+                <input type="email" placeholder="Enter you'r Email"  id="email" required>
+                <label>Password : </label>
+                <input type="password" placeholder="Enter your password..." id="pass" required>
+            </div>
+            <div>
+                <input type="submit" value="Register" onclick="submit_handler(uname.value , fname.value , lname.value ,gender.value, age.value, email.value , pass.value)">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>
+            User Systems Analysis Ltd. | Specialists in developing systems and entering customer information for companies | This site created by Ami Nice @copyright 2023.
+        </p>
+    </footer>
+    <script src="../scripts/reg.js"></script>
+</body>
+
+</html>

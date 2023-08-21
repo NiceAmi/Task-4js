@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles/style.css">
+    <title>Log-in page</title>
+</head>
+
+<body>
+    
+    <h1>User Systems Analysis Ltd</h1>
+    <h2>Login page</h2>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <img src="../media/pic/coading.webp">
+
+    <div class="container">
+        
+        <div class="alert" id="alert"></div>
+        <label>User name</label>
+        <input type="text" placeholder="Enter User name..." id="uname">
+       <label>Password :</label>
+        <input type="password" placeholder="password" id="pass">
+       <div class="btn">
+        <button onclick="login(uname.value , pass.value)">Log-in</button>
+        <button><a href="../pages/reg.html">Register</a></button>
+    </div>
+    </div>
+    <footer>
+        <p>
+            User Systems Analysis Ltd. | Specialists in developing systems and entering customer information for companies | This site created by Ami Nice @copyright 2023.
+        </p>
+    </footer>
+    <script src="../scripts/login.js"></script>
+</body>
+
+</html>

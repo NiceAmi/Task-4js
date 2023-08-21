@@ -1,0 +1,230 @@
+body{
+    background-color: #080710;
+}
+
+.background{
+    width: 430px;
+    height: 580px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
+
+
+form .container{
+    height: 600px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 27px;
+    font-family: 'Poppins',sans-serif;
+}
+
+label{
+    display: block;
+    
+}
+
+input{
+    height: 25px;
+    width: 80%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    color: #ffffff;
+}
+h1, h2{
+    background: linear-gradient(rgba(12, 221, 12, 0.699), rgba(34, 44, 33, 0.384));    margin-left: 200px;
+    width: fit-content;
+    color: white;
+}
+
+
+::placeholder{
+    color: #a7a5a5;
+    text-align: center;
+}
+
+img{
+    height: 660px;
+    width: 1400px;
+    bottom:  10%;
+    left: 8%;
+    position: relative;
+    z-index: -1;
+    filter: blur(5px);
+}
+#out{
+    margin-top: 200px;
+        
+        background: linear-gradient(rgba(197, 211, 8, 0.473), rgba(240, 76, 11, 0.466));}
+
+button{
+    width: fit-content;
+    height: fit-content;
+    background-color: #a3dfcd63;
+    color: #080710;
+    padding: 15px ;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+button:hover{
+    scale: 1.2;
+    transition: 1s;
+}
+.btn{
+    text-align: center;
+    margin: auto;
+    right: 20%;
+    margin-top: 20px;
+}
+
+.container {
+    height: 600px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 27px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.showtasks{
+     height: 600px;
+    width: 350px;
+    background-color: rgba(159, 228, 156, 0.171);
+    transform: translate(120%,-104%);
+    position: absolute;
+    overflow: scroll;
+    border-radius: 90px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    color: #ffffff;
+    line-height: 39px;
+    font-size: 27px;
+    font-family: 'Poppins',sans-serif;
+}
+.addtask{
+    margin-top: 20px;
+}
+.newdiv{
+  
+    font-size: 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+      line-height: 20px;
+    
+}
+
+
+footer{
+    display: block;
+  background: linear-gradient(rgb(40, 54, 40), rgb(52, 223, 40));
+  opacity: 0.7;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: white}
+
+
+
+#priority{
+    width: 325px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.13);
+    color: #75b17c;
+
+}
+
+#gender{
+    width: 330px;
+    background-color: rgba(255,255,255,0.13);
+    margin-top: 20px;
+    font-size: 20px;
+    color: #75b17c;
+
+}
+.bar{
+    margin: auto;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+    text-align: center;
+    --r1: 154%;
+    --r2: 68.5%;
+    width:60px;
+    height:60px;
+    border-radius: 50%; 
+    background:
+      radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+      radial-gradient(var(--r1) var(--r2) at bottom,#269af2 79.5%,#0000 80%),
+      radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+      #ccc;
+    background-size: 50.5% 220%;
+    background-position: -100% 0%,0% 0%,100% 0%;
+    background-repeat:no-repeat;
+    animation:p9 2s infinite linear;
+  }
+  @keyframes p9 {
+      33%  {background-position:    0% 33% ,100% 33% ,200% 33% }
+      66%  {background-position: -100%  66%,0%   66% ,100% 66% }
+      100% {background-position:    0% 100%,100% 100%,200% 100%}
+  }
+  

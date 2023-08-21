@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title> Tasks page</title>
+
+</head>
+
+<body>
+    <h1>User Systems Analysis Ltd</h1>
+
+    <h2>Tasks page</h2>
+
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <img src="../media/pic/coading.webp">
+
+    <div class="container" id="container">
+        <label>Task name :</label>
+        <input type="text" placeholder="Add task name..." id="name">
+        <label>Description :</label>
+        <input type="text" placeholder="Add task description..." id="description">
+        <select id="priority"  name="priority">
+            <option>Select priority</option>
+            <option value="1-Negligible" id="priority">1-Negligible</option>
+            <option value="2-Medium" id="priority">2-Medium</option>
+            <option value="3-Very important" id="priority">3-Very important</option>
+        </select>
+        <div class="addtask" id="addtask">
+            <button id="addbtn">ADD TASK</button>
+            <button id="showbtn">Show Tasks</button>
+            <label>Sort tasks by:</label>
+            <button id="namebtn">Name</button>
+            <button id="desbtn">Description</button>
+            <button id="probtn">Priority</button>
+            <div class="bar" id="bar"></div>
+            <button id="out" onclick="log_out()">Log-Out</button>
+            <div class="showtasks" id="showtasks"></div>
+        </div>
+
+    </div>
+    <footer>
+        <p>
+            User Systems Analysis Ltd. | Specialists in developing systems and entering customer information for
+            companies | This site created by Ami Nice @copyright 2023.
+        </p>
+    </footer>
+    <script src="../scripts/task.js"></script>
+</body>
+
+</html>
